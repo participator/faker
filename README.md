@@ -238,6 +238,9 @@ gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'main
 ### Fantasy
   - [Faker::Fantasy::Tolkien](doc/fantasy/tolkien.md)
 
+### Travel
+  - [Faker:Travel::Airport](doc/travel/airport.md)
+
 ### Creature
   - [Faker::Creature::Animal](doc/creature/animal.md)
   - [Faker::Creature::Bird](doc/creature/bird.md)
@@ -271,6 +274,7 @@ gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'main
   - [Faker::Games::Zelda](doc/games/zelda.md)
 
 ### Japanese Media
+  - [Faker::JapaneseMedia::CowboyBebop](doc/japanese_media/cowboy_bebop.md)
   - [Faker::JapaneseMedia::DragonBall](doc/japanese_media/dragon_ball.md)
   - [Faker::JapaneseMedia::OnePiece](doc/japanese_media/one_piece.md)
   - [Faker::JapaneseMedia::StudioGhibli](doc/japanese_media/studio_ghibli.md)
@@ -347,6 +351,7 @@ gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'main
   - [Faker::TvShows::SiliconValley](doc/tv_shows/silicon_valley.md)
   - [Faker::TvShows::Simpsons](doc/tv_shows/simpsons.md)
   - [Faker::TvShows::SouthPark](doc/tv_shows/south_park.md)
+  - [Faker::TvShows::Spongebob](doc/tv_shows/spongebob.md)
   - [Faker::TvShows::StarTrek](doc/tv_shows/star_trek.md)
   - [Faker::TvShows::Stargate](doc/tv_shows/stargate.md)
   - [Faker::TvShows::StrangerThings](doc/tv_shows/stranger_things.md)
@@ -360,8 +365,8 @@ gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'main
   - [Faker::TvShows::VentureBros](doc/tv_shows/venture_bros.md)
 
 ## Customization
-You may want Faker to print information depending on your location in the world. 
-To assist you in this, Faker uses I18n gem to store strings and formats to 
+You may want Faker to print information depending on your location in the world.
+To assist you in this, Faker uses I18n gem to store strings and formats to
 represent the names and postal codes of the area of your choosing.
 Just set the locale you want as shown below, and Faker will take care of the rest.
 
